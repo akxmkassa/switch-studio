@@ -27,8 +27,6 @@
 ## Friends — 2026-11-17
 ## Sapphire insert and the launch film — 2026-11-17
 ## Settings: Session Lights sits with Preferences — 2026-11-17
-## Studio 5: session lights — 2026-11-17
-## Studio 4 installs that say so, plus connect and heat-start fixes — 2026-11-17
 ## Switch GO: the stem inside the glass — 2026-11-17
 ## Switch 2 3D model: closer to the real device — 2026-11-17
 ## Switch GO: glass that looks like glass — 2026-11-17

@@ -2,10 +2,10 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v14.s2e",
-      "version": "SW2-std-14",
-      "description": "Studio v1.1: everything in Studio v1 (the red ring that brightens as it heats, the standby-light fix, the green countdown drain, fast descent up to 12 °F/s), plus live temperature updates about twice as often, so the app can check how closely your custom curves are followed.",
-      "checksum": "e1113c4da78d559f73ca2989756d0f06a1c6f7fd3cbc19ae98e30ad8a3429478",
+      "url": "studio_v15.s2e",
+      "version": "SW2-std-15",
+      "description": "Studio v1.2: everything in Studio v1.1, with smoother lights. While it heats, the whole ring glows soft red and fills to bright red from the bottom up, getting brighter as it heats. At temperature it turns full green and slowly dims from the top down as your hold counts down, without ever going dark.",
+      "checksum": "f637973791aa1caa379a7fba2a50a1382b44e502bd39301e3c586cdf2493a374",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
