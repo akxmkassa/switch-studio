@@ -1,4 +1,5 @@
 # Changelog
+## Smoother while your device is connected — 2026-11-19
 ## Lights: Standby / Heating / Heated, and a new Light Studio — 2026-11-19
 ## Active now: how many people are on Switch Studio — 2026-11-19
 ## Settings: shorter — 2026-11-19
