@@ -1,0 +1,19 @@
+{
+  "name": "Switch Studio",
+  "short_name": "Studio",
+  "description": "Unofficial Bluetooth controller and curve studio for Dr. Dabber Switch 2 and Switch GO.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#11131D",
+  "theme_color": "#11131D",
+  "icons": [
+    {"src": "icons/apple-touch-icon-180.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

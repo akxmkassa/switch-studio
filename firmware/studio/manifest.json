@@ -1,0 +1,15 @@
+{
+  "schema": "s2ota-studio-1",
+  "targets": {
+    "main_switch2": {
+      "url": "studio_v14.s2e",
+      "version": "SW2-std-14",
+      "description": "Studio v1.1: everything in Studio v1 (the red ring that brightens as it heats, the standby-light fix, the green countdown drain, fast descent up to 12 °F/s), plus live temperature updates about twice as often, so the app can check how closely your custom curves are followed.",
+      "checksum": "e1113c4da78d559f73ca2989756d0f06a1c6f7fd3cbc19ae98e30ad8a3429478",
+      "mandatory": false,
+      "base": "SW2-260929",
+      "size": 191096,
+      "locked": true
+    }
+  }
+}
