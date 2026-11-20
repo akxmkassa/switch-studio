@@ -2,10 +2,10 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v16.s2e",
-      "version": "SW2-std-16",
-      "description": "Studio v1.3: everything in Studio v1.2, with 10 presets on the device instead of 5. The button cycles 1 to 10; presets 6 to 10 sit beside 1 to 5 (preset 8 shares the light colour of preset 3). A preset set to Custom keeps its own drawn curve and runs it with no app; while it is Custom its partner preset (3 and 8, for example) waits. Presets do not switch banks during a session. Safety limits are unchanged.",
-      "checksum": "8896b16dbd05fee30f34cc15fadc19e2d7e92b7ba0c576534ecbbb1fc56ce265",
+      "url": "studio_v18.s2e",
+      "version": "SW2-std-18",
+      "description": "Studio v1.4: everything in Studio v1.3 (10 presets), with new heat-up and ready lights. Heating: the whole ring at 12% red, filling to full from both sides as it heats. At temperature: full green on the whole ring, fading from the top down to 12% as the hold runs out. No red flash at heat start or at temperature. Safety limits are unchanged.",
+      "checksum": "c03ec8cde2fa4cefed5abe7d51ad82620f6e5ea94513210d55e1f8f4c9c42161",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
