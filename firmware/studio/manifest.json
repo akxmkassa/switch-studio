@@ -2,13 +2,15 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v18.s2e",
-      "version": "SW2-std-18",
-      "description": "Studio v1.4: everything in Studio v1.3 (10 presets), with new heat-up and ready lights. Heating: the whole ring at 12% red, filling to full from both sides as it heats. At temperature: full green on the whole ring, fading from the top down to 12% as the hold runs out. No red flash at heat start or at temperature. Safety limits are unchanged.",
-      "checksum": "c03ec8cde2fa4cefed5abe7d51ad82620f6e5ea94513210d55e1f8f4c9c42161",
+      "url": "studio_v20.s2e",
+      "version": "SW2-std-20",
+      "description": "Studio v1.6: everything in Studio v1.4, plus the insert's real temperature sent to the app (so the app can measure and correct a hold), and your own curves saved to a preset now run on the rig with no phone with drops as steep as 30 degrees F a second (was 12). Heat limits are unchanged.",
+      "checksum": "79506426706beb2b3050edf5b559a4fe6b68b94ac4b227f931ade03c887b7a0e",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
+      "display_name": "Studio v1.6",
+      "beta_only": true,
       "locked": true
     }
   }
