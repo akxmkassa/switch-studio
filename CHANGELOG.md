@@ -1,4 +1,5 @@
 # Changelog
+## The curve chart no longer zig-zags — 2026-11-21
 ## Fast drops are sent the way they were on 20 November — 2026-11-21
 ## Custom curves run the way they did this morning — 2026-11-21
 ## Curves: no more false dips, and a curve that starts at its top can reach it — 2026-11-21
