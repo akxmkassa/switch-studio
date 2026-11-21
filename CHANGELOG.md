@@ -1,4 +1,5 @@
 # Changelog
+## Share session data — 2026-11-21
 ## Fast pull label and a calmer green line — 2026-11-21
 ## The curve chart no longer zig-zags — 2026-11-21
 ## Fast drops are sent the way they were on 20 November — 2026-11-21
