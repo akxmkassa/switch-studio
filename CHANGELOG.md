@@ -1,4 +1,5 @@
 # Changelog
+## Your curve starts at the temperature you drew — 2026-11-21
 ## Curves: no more false dips, and a curve that starts at its top can reach it — 2026-11-21
 ## Launch: "Show all devices" when your Switch isn't found — 2026-11-19
 ## Smoother while your device is connected — 2026-11-19
