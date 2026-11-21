@@ -1,4 +1,5 @@
 # Changelog
+## A custom curve starts when the insert is really at its start temperature — 2026-11-21
 ## The curve chart no longer zig-zags — 2026-11-21
 ## Fast drops are sent the way they were on 20 November — 2026-11-21
 ## Custom curves run the way they did this morning — 2026-11-21
