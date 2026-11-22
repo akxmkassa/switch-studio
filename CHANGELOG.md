@@ -1,4 +1,5 @@
 # Changelog
+## The insert is at your start temperature when the device says ready — 2026-11-22
 ## Curves start at exactly the temperature you set, and the app tunes your insert — 2026-11-21
 ## Curves start at the temperature you drew — 2026-11-21
 ## Share session data — 2026-11-21
