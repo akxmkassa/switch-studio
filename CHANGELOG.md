@@ -1,4 +1,5 @@
 # Changelog
+## Curves start at exactly the temperature you set, and the app tunes your insert — 2026-11-21
 ## Curves start at the temperature you drew — 2026-11-21
 ## Share session data — 2026-11-21
 ## Fast pull label and a calmer green line — 2026-11-21
