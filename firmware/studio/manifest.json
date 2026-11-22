@@ -2,15 +2,15 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v21.s2e",
-      "version": "SW2-std-21",
-      "description": "Buzzes only when the chamber is within about 1 F of your set temperature, checked on two readings in a row, so a single bad sensor reading can no longer trigger an early buzz. If the chamber settles a little under, it buzzes after about 10 seconds. Nothing else changes.",
-      "checksum": "301a077632f369d6556f2681de3619c3f5facefd02f3b1db86893a651227dc95",
+      "url": "studio_v22.s2e",
+      "version": "SW2-std-22",
+      "description": "Buzzes when the chamber reaches the usual ready point on two readings in a row, so a single bad sensor reading can no longer trigger an early buzz. Adds about a tenth of a second to a normal heat-up. Nothing else changes.",
+      "checksum": "4ed43287bd223a193bd3c1b7fde18712230354f98279219db03e04ce7e8bee7a",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
       "display_name": "Studio V2",
-      "level": 21,
+      "level": 22,
       "beta_only": true,
       "locked": true
     }
