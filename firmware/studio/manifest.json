@@ -13,45 +13,6 @@
       "level": 22,
       "beta_only": true,
       "locked": true
-    },
-    "main_switch2_build25": {
-      "url": "studio_v25.s2e",
-      "version": "SW2-std-25",
-      "description": "Build 24's heater, unchanged, plus light looks the device can store for standby, heating and heated. The heater law is off until you switch it on in Settings, and the looks are off until they are set (this app has no screen for them yet), so out of the box it heats and lights as build 23 does. Run in emulation only, never on a device: this is a supervised first test, so make the first heat cycles while you watch it. Curves run with the law off.",
-      "checksum": "955936c4ebaa0503dc2f44a199fccb871914e11802492f880b53a75217fb0922",
-      "mandatory": false,
-      "base": "SW2-260929",
-      "size": 191096,
-      "display_name": "Studio V2 · build 25",
-      "level": 25,
-      "beta_only": true,
-      "locked": true
-    },
-    "main_switch2_build24": {
-      "url": "studio_v24c.s2e",
-      "version": "SW2-std-24",
-      "description": "Adds a heater law the device runs itself: with it switched on in Settings, the device holds the set temperature and buzzes only when three readings in a row are within 3 °F. It is off until you turn it on, and with it off the heater works as in build 23. Run in emulation only, never on a device: make the first heat cycles while you watch it. Curves run with the law off.",
-      "checksum": "37ff649be04a5b99e13c742d2c027e9346cfe27148ed6629bf69778a2abd4acf",
-      "mandatory": false,
-      "base": "SW2-260929",
-      "size": 191096,
-      "display_name": "Studio V2 · build 24",
-      "level": 24,
-      "beta_only": true,
-      "locked": true
-    },
-    "main_switch2_build23": {
-      "url": "studio_v23.s2e",
-      "version": "SW2-std-23",
-      "description": "Adds settings the app can write to the device and read back (ready band, ready fallback, light and buzz lengths). The heater and the ready rule are those of Studio V2 until a setting is changed. Run in emulation only, never on a device.",
-      "checksum": "41b0acc8da39ed20c75e3f56addcd0280aec41c95ed194033594d7c8759ec283",
-      "mandatory": false,
-      "base": "SW2-260929",
-      "size": 191096,
-      "display_name": "Studio V2 · build 23",
-      "level": 23,
-      "beta_only": true,
-      "locked": true
     }
   }
 }
