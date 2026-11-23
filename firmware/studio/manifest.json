@@ -17,7 +17,7 @@
     "main_switch2_build25": {
       "url": "studio_v25.s2e",
       "version": "SW2-std-25",
-      "description": "Build 24's heater, unchanged, plus light looks the device can store for standby, heating and heated. The heater law is off until you switch it on in Settings, and the looks are off until they are set (this app has no screen for them yet), so out of the box it heats and lights as build 23 does. Run in emulation only, never on a device: this is a supervised first test, so make the first heat cycles while you watch it. A curve you start from the app runs with the law off; while the law is on, start a preset that holds a curve from the app, not from the device's button.",
+      "description": "Build 24's heater, unchanged, plus light looks the device can store for standby, heating and heated. The heater law is off until you switch it on in Settings, and the looks are off until they are set (this app has no screen for them yet), so out of the box it heats and lights as build 23 does. Run in emulation only, never on a device: this is a supervised first test, so make the first heat cycles while you watch it. Curves run with the law off.",
       "checksum": "955936c4ebaa0503dc2f44a199fccb871914e11802492f880b53a75217fb0922",
       "mandatory": false,
       "base": "SW2-260929",
