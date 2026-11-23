@@ -1,0 +1,18 @@
+{
+  "schema": "s2ota-studio-1",
+  "targets": {
+    "main_switch2": {
+      "url": "studio_v23.s2e",
+      "version": "SW2-std-23",
+      "description": "Adds settings the app can write to the device and read back (ready band, ready fallback, light and buzz lengths). The heater and the ready rule are those of Studio V2 until a setting is changed. Run in emulation only, never on a device.",
+      "checksum": "41b0acc8da39ed20c75e3f56addcd0280aec41c95ed194033594d7c8759ec283",
+      "mandatory": false,
+      "base": "SW2-260929",
+      "size": 191096,
+      "display_name": "Studio V2 · build 23",
+      "level": 23,
+      "beta_only": true,
+      "locked": true
+    }
+  }
+}
