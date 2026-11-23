@@ -2,15 +2,15 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v22.s2e",
-      "version": "SW2-std-22",
-      "description": "Buzzes when the chamber reaches the usual ready point on two readings in a row, so a single bad sensor reading can no longer trigger an early buzz. Adds about a tenth of a second to a normal heat-up. Nothing else changes.",
-      "checksum": "4ed43287bd223a193bd3c1b7fde18712230354f98279219db03e04ce7e8bee7a",
+      "url": "studio_std26.s2e",
+      "version": "SW2-std-26",
+      "description": "Studio V2, the build that tested best (the same firmware as build 22), numbered 26 so it installs over build 25. The ready buzz needs two fresh readings in a row, so one bad sensor reading can no longer trigger an early buzz. No heater law.",
+      "checksum": "a48c2cd2a7e49706b121ace952c37c6d41a5914f14940e02b3c2c03bc432dc95",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
-      "display_name": "Studio V2",
-      "level": 22,
+      "display_name": "Studio V2 · build 26",
+      "level": 26,
       "beta_only": true,
       "locked": true
     }
