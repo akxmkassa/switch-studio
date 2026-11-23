@@ -2,22 +2,22 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_v25.s2e",
-      "version": "SW2-std-25",
-      "description": "Studio V2 build 25. The heater holds your set temperature itself and buzzes only when three fresh readings in a row are within 3 F, so there is no early buzz and no raised start; the app switches this on for you once and you can switch it off in Settings > Firmware. The 2-second solid light at heat start is gone. A misread never stops a session. While it is on, start a preset that holds a curve from the app, not the device button. Tested in emulation only: watch your first heat-ups.",
-      "checksum": "955936c4ebaa0503dc2f44a199fccb871914e11802492f880b53a75217fb0922",
+      "url": "studio_v22.s2e",
+      "version": "SW2-std-22",
+      "description": "Buzzes when the chamber reaches the usual ready point on two readings in a row, so a single bad sensor reading can no longer trigger an early buzz. Adds about a tenth of a second to a normal heat-up. Nothing else changes.",
+      "checksum": "4ed43287bd223a193bd3c1b7fde18712230354f98279219db03e04ce7e8bee7a",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
-      "display_name": "Studio V2 · build 25",
-      "level": 25,
+      "display_name": "Studio V2",
+      "level": 22,
       "beta_only": true,
       "locked": true
     },
     "main_switch2_build25": {
       "url": "studio_v25.s2e",
       "version": "SW2-std-25",
-      "description": "Build 24's heater, unchanged, plus light looks the device can store for standby, heating and heated. The heater law is off in the firmware; the app turns it on once, the first time it connects to this device on a phone where it is offered (switch it off in Settings and it stays off). The looks are off until they are set (this app has no screen for them yet), so out of the box it heats and lights as build 23 does. Run in emulation only, never on a device: this is a supervised first test, so make the first heat cycles while you watch it. A curve you start from the app runs with the law off; while the law is on, start a preset that holds a curve from the app, not from the device's button.",
+      "description": "Build 24's heater, unchanged, plus light looks the device can store for standby, heating and heated. The heater law is off until you switch it on in Settings, and the looks are off until they are set (this app has no screen for them yet), so out of the box it heats and lights as build 23 does. Run in emulation only, never on a device: this is a supervised first test, so make the first heat cycles while you watch it. A curve you start from the app runs with the law off; while the law is on, start a preset that holds a curve from the app, not from the device's button.",
       "checksum": "955936c4ebaa0503dc2f44a199fccb871914e11802492f880b53a75217fb0922",
       "mandatory": false,
       "base": "SW2-260929",
@@ -50,19 +50,6 @@
       "size": 191096,
       "display_name": "Studio V2 · build 23",
       "level": 23,
-      "beta_only": true,
-      "locked": true
-    },
-    "main_switch2_build22": {
-      "url": "studio_v22.s2e",
-      "version": "SW2-std-22",
-      "description": "Buzzes when the chamber reaches the usual ready point on two readings in a row, so a single bad sensor reading can no longer trigger an early buzz. Adds about a tenth of a second to a normal heat-up. Nothing else changes.",
-      "checksum": "4ed43287bd223a193bd3c1b7fde18712230354f98279219db03e04ce7e8bee7a",
-      "mandatory": false,
-      "base": "SW2-260929",
-      "size": 191096,
-      "display_name": "Studio V2",
-      "level": 22,
       "beta_only": true,
       "locked": true
     }
