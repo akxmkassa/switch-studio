@@ -1,4 +1,7 @@
 # Changelog
+## Every Vapor Profile is on the device again — 2026-11-23 (fix round)
+## Your edited Vapor Profile runs from the device's button, and the app learns your own pull — 2026-11-23
+## Your Vapor Profile edits are saved on the device — 2026-11-22
 ## Ready only at the buzz, and a faster start — 2026-11-22
 ## The insert is at your start temperature when the device says ready — 2026-11-22
 ## Curves start at exactly the temperature you set, and the app tunes your insert — 2026-11-21
