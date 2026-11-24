@@ -13,6 +13,19 @@
       "level": 26,
       "beta_only": true,
       "locked": true
+    },
+    "main_switch2_build28": {
+      "url": "studio_std28.s2e",
+      "version": "SW2-std-28",
+      "description": "Studio V2 build 28. Vapor Profiles live on the device: 5 by default, 5 to 10 set from the app, each with its own curve, colour and light look, all run from the button with no phone. The heat target rounds to the nearest whole degree instead of down. The device always powers off from the button. With Fast Descent on, the device holds your line on fast falls itself: it cuts the heater the moment the insert is above your curve and brings it back when it drops below. Heat limits, the 250 to 650 F range and the 60 second shut-off are unchanged.",
+      "checksum": "e109e570332b03587048bb483c59fc672195cb68029ca4e478e1334ac8380700",
+      "mandatory": false,
+      "base": "SW2-260929",
+      "size": 191096,
+      "display_name": "Studio V2 · build 28",
+      "level": 28,
+      "beta_only": true,
+      "locked": true
     }
   }
 }
