@@ -2,19 +2,6 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_std26.s2e",
-      "version": "SW2-std-26",
-      "description": "Studio V2, the build that tested best (the same firmware as build 22), numbered 26 so it installs over build 25. The ready buzz needs two fresh readings in a row, so one bad sensor reading can no longer trigger an early buzz. No heater law.",
-      "checksum": "a48c2cd2a7e49706b121ace952c37c6d41a5914f14940e02b3c2c03bc432dc95",
-      "mandatory": false,
-      "base": "SW2-260929",
-      "size": 191096,
-      "display_name": "Studio V2 · build 26",
-      "level": 26,
-      "beta_only": true,
-      "locked": true
-    },
-    "main_switch2_build28": {
       "url": "studio_std28.s2e",
       "version": "SW2-std-28",
       "description": "Studio V2 build 28. Vapor Profiles live on the device: 5 by default, 5 to 10 set from the app, each with its own curve, colour and light look, all run from the button with no phone. The heat target rounds to the nearest whole degree instead of down. The device always powers off from the button. With Fast Descent on, the device holds your line on fast falls itself: it cuts the heater the moment the insert is above your curve and brings it back when it drops below. Heat limits, the 250 to 650 F range and the 60 second shut-off are unchanged.",
