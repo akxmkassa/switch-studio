@@ -52,6 +52,19 @@
         "ceiling_650",
         "integral_clamp"
       ]
+    },
+    "main_switch2_build30": {
+      "url": "studio_std30.s2e",
+      "version": "SW2-std-30",
+      "description": "Studio V2 build 30, for the owner's supervised test. Everything from build 29, plus: while the insert is well above a falling line, the heater is switched fully off instead of half on, so steep drops run closer to your line. Tested in emulation only.",
+      "checksum": "fb320eadd1d5c925c5a7bb6278e38547be0346acff636eed4cd43f8985d6cee4",
+      "mandatory": false,
+      "base": "SW2-260929",
+      "size": 191096,
+      "display_name": "Studio V2 · build 30 (owner test)",
+      "level": 30,
+      "beta_only": true,
+      "locked": true
     }
   }
 }
