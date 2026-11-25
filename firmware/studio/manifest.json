@@ -2,17 +2,36 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
-      "url": "studio_std28.s2e",
-      "version": "SW2-std-28",
-      "description": "Studio V2 build 28. Vapor Profiles live on the device: 5 by default, 5 to 10 set from the app, each with its own curve, colour and light look, all run from the button with no phone. The heat target rounds to the nearest whole degree instead of down. The device always powers off from the button. With Fast Descent on, the device holds your line on fast falls itself: it cuts the heater the moment the insert is above your curve and brings it back when it drops below. Heat limits, the 250 to 650 F range and the 60 second shut-off are unchanged.",
-      "checksum": "e109e570332b03587048bb483c59fc672195cb68029ca4e478e1334ac8380700",
+      "url": "studio_std29.s2e",
+      "version": "SW2-std-29",
+      "description": "Studio V2 build 29. With Fast Descent on, the device now follows your line only on steep drops, and one misread sensor reading cannot set it off. Holds get stronger heat, so the insert stays on your curve. Everything from builds 27 and 28 stays: Vapor Profiles on the device, the heat target rounded to the nearest whole degree, and power-off from the button.",
+      "checksum": "b63bf26444e689cafdcf74958cde609bd2e0bf60595ae640d5882800976c4f54",
       "mandatory": false,
       "base": "SW2-260929",
       "size": 191096,
-      "display_name": "Studio V2 · build 28",
-      "level": 28,
+      "display_name": "Studio V2 · build 29",
+      "level": 29,
       "beta_only": true,
       "locked": true
+    },
+    "main_switchgo": {
+      "url": "studio_go_b1.s2e",
+      "version": "SWG-260929-studio1",
+      "target": "main",
+      "description": "Studio V2 Go build 1. The heat target rounds to the nearest whole degree instead of down, the top heat is capped at 650 F, and when the device says ready the heater lets go of half the extra push it built up while heating. Your Go keeps reporting SWG-260929 after the install; this app remembers that it installed Studio.",
+      "checksum": "b1d8ae0f99fe224cf2b33526d4da892a0335fc7f423ad9818aaad2842156976b",
+      "mandatory": false,
+      "base": "SWG-260929",
+      "size": 59228,
+      "display_name": "Studio V2 · Go build 1",
+      "level": 1,
+      "beta_only": true,
+      "locked": true,
+      "features": [
+        "round_c",
+        "ceiling_650",
+        "integral_clamp"
+      ]
     }
   }
 }
