@@ -1,4 +1,5 @@
 # Changelog
+## Vapor Profiles show what really happened, and Switch Go holds hit as hard as the official app — 2026-11-25
 ## A Switch Go install is remembered only when it finished, and Revert is there after it — 2026-11-24
 ## Every Vapor Profile is on the device again — 2026-11-23 (fix round)
 ## Your edited Vapor Profile runs from the device's button, and the app learns your own pull — 2026-11-23

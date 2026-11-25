@@ -15,6 +15,26 @@
       "locked": true
     },
     "main_switchgo": {
+      "url": "studio_go_b2.s2e",
+      "version": "SWG-260929-studio2",
+      "target": "main",
+      "description": "Studio V2 Go build 2. Everything from Go build 1 (heat target rounded to the nearest whole degree, top heat capped at 650 F, half the extra heating push let go at ready), plus: the Go won't start a heat under 6 % battery, and it tells this app which Studio features it runs, so the app plans every curve on the right heat law. Your Go keeps reporting SWG-260929 after the install.",
+      "checksum": "00ccac5016cc0004b45d4bf1d78fdc3aadd595913d425794e2366d6091f238de",
+      "mandatory": false,
+      "base": "SWG-260929",
+      "size": 59228,
+      "display_name": "Studio V2 · Go build 2",
+      "level": 2,
+      "beta_only": true,
+      "locked": true,
+      "features": [
+        "round_c",
+        "ceiling_650",
+        "integral_clamp",
+        "batt_guard"
+      ]
+    },
+    "main_switchgo_build1": {
       "url": "studio_go_b1.s2e",
       "version": "SWG-260929-studio1",
       "target": "main",
