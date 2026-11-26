@@ -2,6 +2,19 @@
   "schema": "s2ota-studio-1",
   "targets": {
     "main_switch2": {
+      "url": "studio_std31.s2e",
+      "version": "SW2-std-31",
+      "description": "Studio V2 build 31. Everything from build 30, plus: when you start from a cold insert (160 °F or less), the device holds your first temperature with its own heater law until the buzz, so the buzz lands closer to your first point. The heat-up itself ramps up exactly as before. A slow heat-up can now buzz as late as 59 s instead of 52 s rather than stopping short. Warm starts and presets run exactly as build 30. Tested in emulation; your first dabs on it are its first real runs.",
+      "checksum": "9f5227f62be86cb1be2990aa0514bb75154060f11608fac65ce8dedba4ab767a",
+      "mandatory": false,
+      "base": "SW2-260929",
+      "size": 191096,
+      "display_name": "Studio V2 · build 31",
+      "level": 31,
+      "beta_only": true,
+      "locked": true
+    },
+    "main_switch2_build30": {
       "url": "studio_std30.s2e",
       "version": "SW2-std-30",
       "description": "Studio V2 build 30. Everything from build 29, plus: while the insert is well above a falling line, the heater switches fully off instead of half on, so steep drops run closer to your line. Tested in emulation; your first dabs on it are its first real runs.",

@@ -1,4 +1,8 @@
 # Changelog
+## Light Studio — 2026-11-26
+## The heat replay starts when your device is ready, and the app follows your device's buttons — 2026-11-26
+## The app's device picture turns green when your device is ready — 2026-11-25
+## Switch Go: your Heated color shows at temperature — 2026-11-25
 ## The curve editor shows what your insert can really follow — 2026-11-25
 ## Vapor Profiles show what really happened, and Switch Go holds hit as hard as the official app — 2026-11-25
 ## A Switch Go install is remembered only when it finished, and Revert is there after it — 2026-11-24
