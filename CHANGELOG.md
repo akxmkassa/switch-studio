@@ -1,4 +1,5 @@
 # Changelog
+## Insert Lab: measure how your sapphire follows the heat — 2026-11-26
 ## Light Studio — 2026-11-26
 ## The heat replay starts when your device is ready, and the app follows your device's buttons — 2026-11-26
 ## The app's device picture turns green when your device is ready — 2026-11-25
