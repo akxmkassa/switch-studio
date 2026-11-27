@@ -2,15 +2,15 @@
  "schema": "s2ota-studio-1",
  "targets": {
   "main_switch2": {
-   "url": "studio_std35.s2e",
-   "version": "SW2-std-35",
-   "description": "Studio V2 build 35. Everything from build 33, plus: the device's heater law now also runs on warm heat-ups, so a warm start buzzes nearer your temperature; a heat-up that stalls short of your temperature gets a small push to finish; and after the buzz the heater idles while your custom curve falls and the reading is at or above the line. No full-power start. The safety ceilings are unchanged. Tested in emulation and replayed against your saved profiles and curves; your first dabs on it are its first real runs. If anything feels off, install build 33 from this list.",
-   "checksum": "ab7300cf6726e821c0905361f3ffec557f4e27704827295e7bd6754ebd3da847",
+   "url": "studio_std36.s2e",
+   "version": "SW2-std-36",
+   "description": "Studio V2 build 36. Everything from build 35, plus one change: if the device's first temperature reading after you press arrives late, the heater law now still turns on for that heat-up. On build 35 a late first reading left the law off, so the ready buzz landed under your temperature and the heat swung after it. If the first reading is on time, build 36 heats the same as build 35. No full-power start. The safety ceilings are unchanged. Tested in emulation and replayed against your saved profiles and curves; your first dabs on it are its first real runs. If anything feels off, install build 35 from this list.",
+   "checksum": "c97c0a6e6b601804abd7bc47616e46b163cf2024b0b84e9aa80b8942389a9750",
    "mandatory": false,
    "base": "SW2-260929",
    "size": 191096,
-   "display_name": "Studio V2 · build 35",
-   "level": 35,
+   "display_name": "Studio V2 · build 36",
+   "level": 36,
    "beta_only": true,
    "locked": true
   },
@@ -115,6 +115,19 @@
    "size": 191096,
    "display_name": "Studio V2 · build 33",
    "level": 33,
+   "beta_only": true,
+   "locked": true
+  },
+  "main_switch2_build35": {
+   "url": "studio_std35.s2e",
+   "version": "SW2-std-35",
+   "description": "Studio V2 build 35. Everything from build 33, plus: the device's heater law now also runs on warm heat-ups, so a warm start buzzes nearer your temperature; a heat-up that stalls short of your temperature gets a small push to finish; and after the buzz the heater idles while your custom curve falls and the reading is at or above the line. No full-power start. The safety ceilings are unchanged. Tested in emulation and replayed against your saved profiles and curves; your first dabs on it are its first real runs. If anything feels off, install build 33 from this list.",
+   "checksum": "ab7300cf6726e821c0905361f3ffec557f4e27704827295e7bd6754ebd3da847",
+   "mandatory": false,
+   "base": "SW2-260929",
+   "size": 191096,
+   "display_name": "Studio V2 · build 35",
+   "level": 35,
    "beta_only": true,
    "locked": true
   }
