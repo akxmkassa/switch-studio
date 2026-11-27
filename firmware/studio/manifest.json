@@ -41,6 +41,29 @@
    "locked": true
   },
   "main_switchgo": {
+   "url": "studio_go_b35.s2e",
+   "version": "SWG-260929-studio35",
+   "target": "main",
+   "description": "Studio V2 Go build 35 (Switch Go Beta 1). Everything from Go build 2, plus: the Go buzzes once two readings in a row sit within about 1 F of your temperature instead of about 24 F short while still climbing, and every heat-up buzzes by 59 s at the latest. At temperature the Go shows the Heated colour you picked, set by the device itself. Hill now rises and comes back as drawn, every mode stays between 250 and 650 F, and the heater no longer stores up extra push during a long heat-up. Tested in emulation; your first dabs on it are its first real runs. If a heat-up behaves oddly, install Go build 2 from this list. Your Go keeps reporting SWG-260929 after the install.",
+   "checksum": "bf683d759f24d746c91480aeff2a43d0ed97e4cffb99d09eebfdc5d7ecdd8a3e",
+   "mandatory": false,
+   "base": "SWG-260929",
+   "size": 59228,
+   "display_name": "Studio V2 · Go build 35",
+   "level": 35,
+   "beta_only": true,
+   "locked": true,
+   "features": [
+    "round_c",
+    "ceiling_650",
+    "integral_clamp",
+    "ready_light",
+    "batt_guard",
+    "tight_ready",
+    "heat_b35"
+   ]
+  },
+  "main_switchgo_build2": {
    "url": "studio_go_b2.s2e",
    "version": "SWG-260929-studio2",
    "target": "main",
