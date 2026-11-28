@@ -2,15 +2,15 @@
  "schema": "s2ota-studio-1",
  "targets": {
   "main_switch2": {
-   "url": "studio_std36.s2e",
-   "version": "SW2-std-36",
-   "description": "Studio V2 build 36. Everything from build 35, plus one change: if the device's first temperature reading after you press arrives late, the heater law now still turns on for that heat-up. On build 35 a late first reading left the law off, so the ready buzz landed under your temperature and the heat swung after it. If the first reading is on time, build 36 heats the same as build 35. No full-power start. The safety ceilings are unchanged. Tested in emulation and replayed against your saved profiles and curves; your first dabs on it are its first real runs. If anything feels off, install build 35 from this list.",
-   "checksum": "c97c0a6e6b601804abd7bc47616e46b163cf2024b0b84e9aa80b8942389a9750",
+   "url": "studio_std37.s2e",
+   "version": "SW2-std-37",
+   "description": "Studio V2 build 37. Everything from build 36, plus one change: when a heat-up stalls below your temperature and the rescue push kicks in, the push now stops 5 F under your temperature instead of 3 F, so it overshoots less. If a heat-up does not stall, build 37 heats the same as build 36. No full-power start. The safety ceilings are unchanged. Tested in emulation; your first dabs on it are its first real runs. If anything feels off, install build 36 from this list.",
+   "checksum": "3c5c15864f806e85867bfc7f6f5a5b04effd77185d325b46fe726ec0b6012fac",
    "mandatory": false,
    "base": "SW2-260929",
    "size": 191096,
-   "display_name": "Studio V2 · build 36",
-   "level": 36,
+   "display_name": "Studio V2 · build 37",
+   "level": 37,
    "beta_only": true,
    "locked": true
   },
@@ -174,6 +174,19 @@
    "size": 191096,
    "display_name": "Studio V2 · build 35",
    "level": 35,
+   "beta_only": true,
+   "locked": true
+  },
+  "main_switch2_build36": {
+   "url": "studio_std36.s2e",
+   "version": "SW2-std-36",
+   "description": "Studio V2 build 36. Everything from build 35, plus one change: if the device's first temperature reading after you press arrives late, the heater law now still turns on for that heat-up. On build 35 a late first reading left the law off, so the ready buzz landed under your temperature and the heat swung after it. If the first reading is on time, build 36 heats the same as build 35. No full-power start. The safety ceilings are unchanged. Tested in emulation and replayed against your saved profiles and curves; your first dabs on it are its first real runs. If anything feels off, install build 35 from this list.",
+   "checksum": "c97c0a6e6b601804abd7bc47616e46b163cf2024b0b84e9aa80b8942389a9750",
+   "mandatory": false,
+   "base": "SW2-260929",
+   "size": 191096,
+   "display_name": "Studio V2 · build 36",
+   "level": 36,
    "beta_only": true,
    "locked": true
   }
