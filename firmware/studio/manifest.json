@@ -41,6 +41,29 @@
    "locked": true
   },
   "main_switchgo": {
+   "url": "studio_go_b36.s2e",
+   "version": "SWG-260929-studio36",
+   "target": "main",
+   "description": "Studio V2 Go build 36. Everything from Go build 35, plus Fast Descent: a custom curve can fall up to 30 F per second instead of the stock 3 F per second. Rises stay at most 10 F per second, and every point stays between 250 and 650 F and within 90 s. The insert only cools as fast as it loses heat, so a steep drawn fall is followed as closely as the insert allows. Tested in emulation; your first dabs on it are its first real runs. If anything behaves oddly, install Go build 35 or Go build 2 from this list. Your Go keeps reporting SWG-260929 after the install.",
+   "checksum": "c1a2b4aa55f1e9a673f574a335a5bbe745de17d62cc840bb7b49a1c02427af13",
+   "mandatory": false,
+   "base": "SWG-260929",
+   "size": 59228,
+   "display_name": "Studio V2 · Go build 36",
+   "level": 36,
+   "beta_only": true,
+   "locked": true,
+   "features": [
+    "round_c",
+    "ceiling_650",
+    "integral_clamp",
+    "ready_light",
+    "batt_guard",
+    "tight_ready",
+    "heat_b35"
+   ]
+  },
+  "main_switchgo_build35": {
    "url": "studio_go_b35.s2e",
    "version": "SWG-260929-studio35",
    "target": "main",
